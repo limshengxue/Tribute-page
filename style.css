@@ -1,0 +1,111 @@
+/* General Styling */
+h1,h2,h3,h4,h5,h6{
+    font-family: "Noto Serif",serif;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+p{
+    font-family: "Lato",sans-serif;
+}
+
+hr{
+    border: 3 0 0 0;
+    width: 80%;
+}
+
+
+
+/* Heading Section */
+header{
+    text-align: center;
+}
+
+#title{
+    line-height: 2;
+}
+
+#image{
+    height: 70%;
+    width: 70%;
+    object-fit: contain;
+}
+
+#img-caption{
+    margin: 30px 0 50px 0;
+    line-height: 2;
+}
+
+/* Content Section */
+#info{
+    background-color: #2b2024;
+    color: white;
+    height: 10%;
+    margin: 50px 0; 
+}
+
+#info h1{
+    padding: 5% 15% 5%;
+}
+
+.content{
+    padding: 2% 15% 13%;
+    text-align: right;
+    font-size: 1.2rem;
+}
+
+.conImg{
+    height: 65px;
+    width: 65px;
+    background-color: white;
+    border-radius:20px;
+    padding: 10px;
+    float: left;
+    margin: 20px;
+}
+
+.content p{
+    margin-left: 25%;
+}
+
+/* Lessons Section */
+#lessons {
+    margin: 0 auto 30px;
+    padding: 0 15%;
+}
+
+#lessons h1 {
+    padding-bottom : 5%;
+    padding-top: 5%;
+}
+
+#lessons .card-title{
+    height: 95px;
+    background-color: #2b2024;
+    color: white;
+    padding: 5% 5% 17%;
+}
+
+#lessons .card{
+    margin-bottom: 50px;
+}
+
+/* Footer */
+footer{
+    background-color: #2b2024;
+    color: white;
+    padding: 4% 15% 2%;
+    line-height: 3;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: grey;
+    text-decoration: none;
+}

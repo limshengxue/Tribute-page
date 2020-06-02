@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Serif:wght@400;700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>   
+    <!-- Stylesheet -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="main">
+        <!-- Header with title and image -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#info">Info<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lessons">Takeaways</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#documentary">Documentary</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <header>
+            <h1 id="title">Warren Buffett</h1>
+            <p>The Oracle of Omaha</p>
+            <div id="img-div">
+                <img id="image" src="https://content.fortune.com/wp-content/uploads/2015/02/rtx14ke6.jpg"
+                    alt="Warren Buffett">
+                <p id="img-caption">American investor, business tycoon, and philanthropist.<br> The chairman and CEO of
+                    Berkshire Hathaway</p>
+            </div>
+        </header>
+        <hr>
+        <!-- Main Content of the page -->
+        <section id="info">
+            <h1>Success Story</h1>
+            <div id="tribute-info">
+                <div id="carouselControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner content">
+                        <div class="carousel-item active">
+                            <img src="Images/brain.svg" class="d-block conImg" alt="brain">
+                            <p>Warren Buffett may have been born with business in his blood. He purchased his first
+                                stock when he was
+                                11 years old and worked in his family’s grocery store in Omaha. His father, Howard
+                                Buffett, owned a
+                                small brokerage, and Warren would spend his days watching what investors were doing and
+                                listening to
+                                what they said. </p>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/certificate.svg" class="d-block conImg" alt="certificate">
+                            <p> As a teenager, he took odd jobs, from washing cars to delivering newspapers, using his
+                                savings to purchase several pinball machines that he placed in local businesses. His
+                                entrepreneurial
+                                successes as a youth did not immediately translate into a desire to attend college. His
+                                father pressed
+                                him to continue his education, with Buffett reluctantly agreeing to attend the
+                                University of
+                                Pennsylvania. He then transferred to the University of Nebraska, where he graduated with
+                                a degree in
+                                business in three years.</p>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/team.svg" class="d-block conImg" alt="holdinghands">
+                            <p> After being rejected by the Harvard Business School, he enrolled in graduate
+                                studies at Columbia Business School. While there, he studied under Benjamin Graham – who
+                                became a
+                                lifelong friend – and David Dodd, both well-known securities analysts. It was through
+                                Graham's class in
+                                securities analysis that Buffett learned the fundamentals of value investing.</p>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!-- Takeaways and lessons -->
+        <section id="lessons">
+            <h1>What can we learn from this giant?</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Assess the risk involved</h5>
+                                <p class="card-text">Think about the worst and best possible scenarios and promptly make
+                                    the most rational, progressive decision. That’s basically the advice Buffett gave his
+                                    son, Howie, when the FBI accused the younger Buffett of price-fixing in 1995. Howie
+                                    quickly realized that the risks of staying in his then troubled company far
+                                    outweighed any potential gains, and so he quit the next day. Assessing risks
+                                    carefully helps you see where you are struggling and can guide you to make smarter
+                                    decisions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Exercise vigilance over every expense and spending</h5>
+                                <p class="card-text">Warren Buffett is well-known for being frugal and encouraging
+                                    others to do so. He’s lived in the same house he bought when he was 28 for a mere
+                                    $31,500 to date. Being frugal and conservative with your spending helps you avoid
+                                    waste. And when you avoid waste, you make your money work for you and save enough to
+                                    invest for the future.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Judge yourself by your own standards</h5>
+                                <p class="card-text">Don’t base your decisions, successes or even happiness on what
+                                    others say or do. Buffett notes: “You don’t have to swing at everything—you can wait
+                                    for your pitch. The problem when you’re a money manager is that your fans keep
+                                    yelling, ‘Swing, you bum!'” Instead of following the crowd, measure yourself by your
+                                    “Inner Scorecard”—your own standards and not the world’s.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!-- Footer with link -->
+        <footer id="documentary">
+            <h1>What to know more?</h1>
+            <p>Watch this documentary on youtube</p>
+            <button class="btn btn-outline-light btn-lg"><a href="https://www.youtube.com/watch?v=RYHPlLsdW0A" id="tribute-link" target="_blank"><i class="fab fa-youtube"></i> Watch now</a></button>
+        </footer>
+    </div>
+</body>
+
+</html>
